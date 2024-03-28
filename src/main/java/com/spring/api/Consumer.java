@@ -1,4 +1,4 @@
-package com.api;
+package com.spring.api;
 
 public interface Consumer<U,V> {
     V consumeMessage(U u);
