@@ -1,7 +1,6 @@
 package com.spring.api;
 
-public interface Consumer<C,U,V> {
+public interface Consumer<U> {
 
-    void startConsumer(C c);
-    V consumeMessage(U u);
+    U consumeMessage();
 }
